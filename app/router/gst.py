@@ -8,7 +8,7 @@ router = APIRouter()
 def fetch_gst_details(gstin: str):
     url = f"https://apisetu.gov.in/gstn/v2/taxpayers/{gstin}"
     headers = {
-        "X-APISETU-APIKEY": "464878dad551152c087d3787b803495db3078773119da052ab9bd6c49069c4cb",
+        "X-APISETU-APIKEY": "464878dad551152c087d3787b069c4cb",
         "X-APISETU-CLIENTID": "com.denadatecnologia",
         "Accept": "application/json"
     }
